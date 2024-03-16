@@ -89,6 +89,7 @@ The lip reading system is deployed on platforms or devices accessible to users, 
 
 ![image](https://github.com/Hemanth-sai-reddy/lip-read-hack-/assets/128202236/d43fb884-1428-4f34-bb5f-2d853f2aff54)
 
+![image](https://github.com/Hemanth-sai-reddy/lip-read-hack-/assets/128202236/c72e87ba-20d9-44b2-be45-3f221ba2f87d)
 
 
 ## How to run locally 
