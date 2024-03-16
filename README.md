@@ -1,56 +1,113 @@
 <h1 align="center" style="border-bottom: none">
     <b>
-        <a href="https://www.google.com"> Title of the project </a><br>
+        <a href="https://www.google.com"> LIP BUDDY </a><br>
     </b>
-    ⭐️This is a sample tag line  ⭐️ <br>
+    ⭐️DECODE THE RAW TOKENS INTO WORDS  ⭐️ <br>
 </h1>
 
 # [`Website link`](http://www.google.com)  [`Demo video link `](http://www.google.com) [`Other links `](http://www.google.com) 
-mention the description here , mention what does your prototype does  , make sure that demo video also has narration made by the team members and shows the entire walkthrough of the project , for hardware projects , images , working video and code are required
+Lip Reading: The prototype takes input video clips of people speaking and processes them to understand the spoken words by analyzing lip movements. Lip reading involves interpreting the movements and shapes of the lips to understand the spoken language.
+
+Sequence Modeling: We employ sequence modeling techniques, which are well-suited for tasks where input data has a sequential nature, such as video frames or audio samples. Sequence modeling allows the model to learn temporal dependencies and patterns in the input data.
+
+Connectionist Temporal Classification (CTC): CTC is a technique commonly used in sequence modeling tasks like speech and handwriting recognition. It enables the model to learn to align input sequences with target sequences without the need for exact alignment during training. This is particularly useful in lip reading, where the timing of spoken words may vary.
+
+Training: During training, the model learns to predict sequences of characters or words from input video frames. It is trained using a dataset containing pairs of video clips and corresponding transcripts.
+
+Inference: Once trained, the model can take new video clips as input and generate predictions for the spoken words. This allows the model to transcribe spoken language from lip movements in real-time or on recorded video footage.
 ## Team Details
-`Team number` : VH000
+`Team number` : VH150
 
 | Name    | Email           |
 |---------|-----------------|
-| person1 | person1@gmail.com |
-| person2 | person2@gmail.com |
-| person3 | person3@gmail.com |
-
-<div style="display: flex; flex-wrap: wrap;">
-    <img src="https://static.vecteezy.com/system/resources/previews/013/688/865/non_2x/modern-color-and-geometric-banner-design-template-on-the-background-of-the-mobile-phone-mobile-modern-poster-marketing-special-offer-promotion-smartphone-mockup-vector.jpg" alt="Image 1" style="width: 30%; margin: 5px;">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSECH9uhvdGq0EP6QqG8lzAyjz1F-6V5RyMZrjBGmoIbP5diPgG53mWePJ9RlWVbJuVWCo&usqp=CAU" alt="Image 2" style="width: 30%; margin: 5px;">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEwduQ50DEm_tr94tfGWHqAYzzvjb_5oS6ULmejCN2pBlolGfTv8wTwaa64fnt1GThiDc" alt="Image 3" style="width: 30%; margin: 5px;">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEwduQ50DEm_tr94tfGWHqAYzzvjb_5oS6ULmejCN2pBlolGfTv8wTwaa64fnt1GThiDc" alt="Image 3" style="width: 30%; margin: 5px;">
-       <img src="https://static.vecteezy.com/system/resources/previews/013/688/865/non_2x/modern-color-and-geometric-banner-design-template-on-the-background-of-the-mobile-phone-mobile-modern-poster-marketing-special-offer-promotion-smartphone-mockup-vector.jpg" alt="Image 1" style="width: 30%; margin: 5px;">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSECH9uhvdGq0EP6QqG8lzAyjz1F-6V5RyMZrjBGmoIbP5diPgG53mWePJ9RlWVbJuVWCo&usqp=CAU" alt="Image 2" style="width: 30%; margin: 5px;">
-</div>
+| D Hemanth Sai | 9921004168@klu.ac.in |
+| Ch Venkata Prudhvi| 99210041164@klu.ac.in |
+| Yalavarthi Vikas | 99210042092@klu.ac.in |
+| M Venkatesh | 99210041220@klu.ac.in |
 
 ## Problem statement 
-mention the problem , and mention the severity of the problem and why we need solution for that  , mention which gorup of people face that problem
+The problem addressed by our lip reading project is the communication barrier faced by individuals with hearing impairments or deafness. This barrier arises from the reliance on auditory cues for communication, which excludes those who cannot hear or have limited hearing ability from fully participating in spoken conversations.
+
+Severity of the Problem:
+The severity of this problem is significant, as it impacts the daily lives and social interactions of millions of individuals worldwide. People with hearing impairments often face challenges in various aspects of life, including education, employment, socialization, and access to essential services. This exclusion can lead to feelings of isolation, frustration, and limited opportunities for personal and professional development.
+
+Need for a Solution:
+A solution is essential to address the communication gap and improve the quality of life for individuals with hearing impairments. Lip reading offers a promising solution by providing an alternative method of communication that does not rely on auditory cues. By accurately interpreting lip movements and facial expressions, individuals with hearing impairments can better understand spoken language and participate more fully in conversations, social interactions, and everyday activities.
+
+Groups Affected:
+The problem of communication barriers due to hearing impairments affects a wide range of people, including:
+
+Individuals born with congenital deafness or hearing loss.
+People who have acquired hearing impairments due to illness, injury, or aging.
+Individuals with temporary hearing impairments, such as those recovering from surgery or experiencing temporary hearing loss due to ear infections or other medical conditions.
+Deaf or hard-of-hearing individuals from diverse cultural and linguistic backgrounds.
+
 ## About the project
-mention few details and features of the project , how it is solving the problem 
+Real-Time Lip Reading: Our project utilizes deep learning techniques to perform real-time lip reading on video input. By analyzing the movements of the lips and facial expressions, the system transcribes spoken language into text.
+
+Sequence Modeling with CTC: We employ sequence modeling with the Connectionist Temporal Classification (CTC) loss function to train our model. This enables the model to learn temporal dependencies in the input video frames and predict sequences of characters or words without the need for exact alignment.
+
+Accuracy and Robustness: The model is trained on large datasets containing diverse speakers, lighting conditions, and backgrounds to ensure robustness and accuracy in lip reading. This allows the system to perform well in various real-world scenarios.
+
+Multi-Speaker Support: Our system is designed to handle videos with multiple speakers, making it suitable for group conversations and scenarios where there are multiple people speaking simultaneously.
+
+User-Friendly Interface: The project includes a user-friendly interface that allows individuals with hearing impairments to easily interact with the system. The interface may include features such as visual feedback, text display, and customizable settings for improved accessibility.
+
+Customization and Adaptation: Our system can be customized and adapted to different languages, accents, and speaking styles to accommodate the diverse needs of users worldwide. This flexibility ensures inclusivity and accessibility for a broader range of individuals.
+
+Integration with Assistive Technologies: We aim to integrate our lip reading technology with existing assistive technologies, such as hearing aids, cochlear implants, and speech-to-text systems, to enhance their functionality and effectiveness for individuals with hearing impairments.
 
 ## Technical implemntaion 
-mention the approach and how you have solved the problem with the technology , utilize multiple flowcharts to explain your solutions and approach
-- use bullets to explain
-- be consise and specific
-- explain with images and flowcharts
-- 
-![flowchart](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm5X9E8h0kftXOW2B9jORBskdXF12pFKOX_Q&usqp=CAU)
+Data Collection and Preprocessing:
+
+We collected a large dataset of video clips containing diverse speakers, speaking various languages, in different environments, and under varying lighting conditions.
+We preprocessed the video data to extract individual frames, normalize lighting conditions, and resize images to a standard size for consistency.
+Model Architecture:
+
+We designed a deep learning model architecture suitable for lip reading, typically based on convolutional neural networks (CNNs) and recurrent neural networks (RNNs) or their variants like Long Short-Term Memory (LSTM) or Gated Recurrent Unit (GRU).
+The model takes sequences of video frames as input and learns to predict sequences of characters or words corresponding to the spoken language.
+Training with CTC Loss:
+
+During training, we employ the CTC loss function, which allows the model to learn to align input sequences with target sequences without the need for exact alignment.
+The model learns to associate sequences of video frames with corresponding transcripts, capturing temporal dependencies and patterns in the lip movements.
+Validation and Testing:
+
+We split the dataset into training, validation, and testing sets to evaluate the model's performance on unseen data.
+We perform extensive validation and testing to ensure that the model generalizes well to diverse speakers, accents, languages, and environmental conditions.
+Optimization and Fine-Tuning:
+
+We optimize hyperparameters, such as learning rate, batch size, and network architecture, to improve model performance and convergence speed.
+We fine-tune the model on specific tasks or domains to enhance its accuracy and robustness for real-world applications.
+Integration and Deployment:
+
+We integrate the trained model into a user-friendly interface or application, allowing individuals with hearing impairments to interact with the system easily.
+The lip reading system is deployed on platforms or devices accessible to users, such as smartphones, tablets, or computers, enabling real-time transcription of spoken language into text.
+[flowchart](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm5X9E8h0kftXOW2B9jORBskdXF12pFKOX_Q&usqp=CAU)
 
 ## Techstacks used 
 `nodejs` , `react` , `ml` , `tech stack 1` , `tech stack 2`
 
 ## How to run locally 
-explain detailed steps to run your project locally , example to run a react application 
-- step 1 : clone the repo 
-```
-npm install
-npm start
-```
+step 1 open folder named "
 
 # What's next ?
-tell the future plan that you have for the project , tell the updates that you would wish to bring
+Improved Model Performance: Continuously work on enhancing the accuracy and robustness of our lip reading model. This includes exploring advanced architectures, optimization techniques, and larger and more diverse datasets for training.
+
+Multi-Language Support: Extend our system to support multiple languages to cater to a broader audience worldwide. This involves training language-specific models and adapting the system's interface and output to accommodate different languages and writing systems.
+
+Real-Time Translation: Integrate real-time translation capabilities into our lip reading system, allowing it to transcribe spoken language into text and then translate it into the user's preferred language. This would enable seamless communication between individuals speaking different languages.
+
+Accessibility Features: Enhance the accessibility features of our system to better serve individuals with various needs and preferences. This includes customizable visual feedback, text display options, and compatibility with assistive technologies.
+
+User Interface Enhancements: Improve the user interface of our application to make it more intuitive, user-friendly, and engaging. This involves refining the design, layout, and interaction elements to enhance usability and accessibility for all users.
+
+Integration with Assistive Technologies: Collaborate with manufacturers of hearing aids, cochlear implants, and other assistive devices to integrate our lip reading technology seamlessly with their products. This would enhance the functionality and effectiveness of assistive technologies for individuals with hearing impairments.
+
+Community Engagement and Feedback: Engage with the deaf and hard-of-hearing community to gather feedback, insights, and suggestions for improving our system. Actively involve users in the development process to ensure that our technology meets their needs and preferences effectively.
+
+Research and Collaboration: Collaborate with academic institutions, research organizations, and industry partners to advance the state-of-the-art in lip reading technology. This includes participating in collaborative research projects, sharing datasets and benchmarks, and contributing to academic publications and conferences.
+
+Deployment in Real-World Settings: Deploy our lip reading system in real-world settings such as schools, workplaces, and public spaces to evaluate its effectiveness and gather real-world usage data. This would help validate the utility and impact of our technology in practical applications.
 
 ## Declaration
 We confirm that the project showcased here was either developed entirely during the hackathon or underwent significant updates within the hackathon timeframe. We understand that if any plagiarism from online sources is detected, our project will be disqualified, and our participation in the hackathon will be revoked.
