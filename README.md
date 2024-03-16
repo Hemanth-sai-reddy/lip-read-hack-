@@ -57,7 +57,7 @@ Customization and Adaptation: Our system can be customized and adapted to differ
 
 Integration with Assistive Technologies: We aim to integrate our lip reading technology with existing assistive technologies, such as hearing aids, cochlear implants, and speech-to-text systems, to enhance their functionality and effectiveness for individuals with hearing impairments.
 
-## Technical implemntaion 
+## Technical implementation 
 Data Collection and Preprocessing:
 
 We collected a large dataset of video clips containing diverse speakers, speaking various languages, in different environments, and under varying lighting conditions.
