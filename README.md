@@ -5,7 +5,7 @@
     ⭐️DECODE THE RAW TOKENS INTO WORDS  ⭐️ <br>
 </h1>
 
-# [`code link`](https://colab.research.google.com/drive/1By_wUt72ZitpS6O3X-9ctHUJA1Gmgm5K?usp=sharing)  [`Demo video link `](http://www.google.com) [`git hub repo links `](https://github.com/Hemanth-sai-reddy/lip-read-hack-/tree/main)
+# [`code link`](https://colab.research.google.com/drive/1By_wUt72ZitpS6O3X-9ctHUJA1Gmgm5K?usp=sharing)  [`Demo video link `](https://drive.google.com/drive/folders/1l7ARlEyMC3lOTEcVqfA7v6-k7zpBlGyG?usp=sharing) [`git hub repo links `](https://github.com/Hemanth-sai-reddy/lip-read-hack-/tree/main)
 Lip Reading: The prototype takes input video clips of people speaking and processes them to understand the spoken words by analyzing lip movements. Lip reading involves interpreting the movements and shapes of the lips to understand the spoken language.
 
 Sequence Modeling: We employ sequence modeling techniques, which are well-suited for tasks where input data has a sequential nature, such as video frames or audio samples. Sequence modeling allows the model to learn temporal dependencies and patterns in the input data.
