@@ -82,14 +82,11 @@ Integration and Deployment:
 
 We integrate the trained model into a user-friendly interface or application, allowing individuals with hearing impairments to interact with the system easily.
 The lip reading system is deployed on platforms or devices accessible to users, such as smartphones, tablets, or computers, enabling real-time transcription of spoken language into text.
-[flowchart](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm5X9E8h0kftXOW2B9jORBskdXF12pFKOX_Q&usqp=CAU)
 
-## Techstacks used 
-`nodejs` , `react` , `ml` , `tech stack 1` , `tech stack 2`
 
 ## How to run locally 
-step 1 open folder named "
-
+step 1 open lipnet.iypnb run this ML program 
+step 2 open the folder app and run the streamlitapp.py,modelutil.py and utils.py
 # What's next ?
 Improved Model Performance: Continuously work on enhancing the accuracy and robustness of our lip reading model. This includes exploring advanced architectures, optimization techniques, and larger and more diverse datasets for training.
 
