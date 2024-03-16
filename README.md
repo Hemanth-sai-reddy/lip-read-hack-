@@ -5,7 +5,7 @@
     ⭐️DECODE THE RAW TOKENS INTO WORDS  ⭐️ <br>
 </h1>
 
-# [`Website link`](http://www.google.com)  [`Demo video link `](http://www.google.com) [`Other links `](http://www.google.com) 
+# [`Website link`](http://www.google.com)  [`Demo video link `](http://www.google.com) [`git hub repo links `](http://www.google.com) 
 Lip Reading: The prototype takes input video clips of people speaking and processes them to understand the spoken words by analyzing lip movements. Lip reading involves interpreting the movements and shapes of the lips to understand the spoken language.
 
 Sequence Modeling: We employ sequence modeling techniques, which are well-suited for tasks where input data has a sequential nature, such as video frames or audio samples. Sequence modeling allows the model to learn temporal dependencies and patterns in the input data.
@@ -82,6 +82,13 @@ Integration and Deployment:
 
 We integrate the trained model into a user-friendly interface or application, allowing individuals with hearing impairments to interact with the system easily.
 The lip reading system is deployed on platforms or devices accessible to users, such as smartphones, tablets, or computers, enabling real-time transcription of spoken language into text.
+
+![image](https://github.com/Hemanth-sai-reddy/lip-read-hack-/assets/128202236/d164dd4d-8acb-411c-9fa4-f94054bb52c7)
+![image](https://github.com/Hemanth-sai-reddy/lip-read-hack-/assets/128202236/a006dff3-b877-4e23-8b8b-d57d55c08cd6)
+![image](https://github.com/Hemanth-sai-reddy/lip-read-hack-/assets/128202236/ccbfa7e1-d070-4841-bf9c-a997df5d50dc)
+
+![image](https://github.com/Hemanth-sai-reddy/lip-read-hack-/assets/128202236/d43fb884-1428-4f34-bb5f-2d853f2aff54)
+
 
 
 ## How to run locally 
